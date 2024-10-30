@@ -1,0 +1,131 @@
+div.inside a.rsswidget {
+	font-family: 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif;
+	text-decoration: none;
+}
+
+div.inside a.rsswidget:hover {
+	text-decoration: underline;
+}
+
+div.inside ul li.bubble {
+	list-style-image: url(images/bubble.png);
+        margin: 0 0 0 25px;
+}
+
+div.inside ul li.rss {
+	list-style-image: url(images/rss.png);
+        margin: 0 0 0 25px;
+}
+
+div.inside ul li.email {
+	list-style-image: url(images/email.png);
+        margin: 0 0 0 25px;
+}
+
+div.inside ul li.twitter {
+	list-style-image: url(images/twitter.png);
+        margin: 0 0 0 25px;
+}
+
+.list li {
+	border-bottom:1px solid #E3E3E3;
+	line-height:30px;
+	margin:0;
+	padding:0 0 0 5px;
+	width:260px;
+}
+
+.list li img {
+	cursor:pointer;
+	float:right;
+	margin:7px 5px 0 0;
+}
+
+#categories li .title {
+	background:url("images/arrow.png") no-repeat scroll 4px 13px transparent;
+	padding-left:15px;
+}
+
+#jump_list_entries { 
+	list-style-type: none; 
+	margin:0 10px 0 0;
+	padding:5px; 
+}
+
+
+#jump_list_entries li { 
+	background:#F1F1F1;
+	border:1px solid #E6E6E6;
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+    padding-right:10px;
+	position:relative;
+}
+
+#jump_list_entries li .title {
+	background:url("images/arrow.png") no-repeat scroll 4px 5px transparent;
+	padding-left:15px;
+}
+
+#jump_list_entries li .settings {
+	position:absolute;
+	right:15px;
+	top:-1px;
+}
+
+#jump_list_entries li img {
+	vertical-align:middle;
+}
+
+#task_entries { 
+	list-style-type: none; 
+	margin:0 10px 0 0;
+	padding:5px; 
+}
+
+
+#task_entries li { 
+	background:#F1F1F1;
+	border:1px solid #E6E6E6;
+	height:35px;
+	line-height:35px;
+	padding-left:10px;
+    padding-right:10px;
+	position:relative;
+}
+
+#task_entries li .title {
+	background:url("images/arrow.png") no-repeat scroll 4px 5px transparent;
+	padding-left:15px;
+}
+
+#task_entries li .settings {
+	position:absolute;
+	right:15px;
+	top:-1px;
+}
+
+#task_entries li img {
+	vertical-align:middle;
+}
+
+.entry-type {
+	color:#999999;
+	font-size:11px;
+	padding-right:10px;
+	text-transform:uppercase;
+}
+
+img.delete {
+	cursor:pointer;
+	margin:0 5px 0 0;
+}
+
+.inputDefault{
+	color:#AAAAAA;
+}
+
+.ui-effects-transfer { 
+	border: 2px dotted gray; 
+} 
